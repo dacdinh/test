@@ -21,6 +21,7 @@ Cài đặt package
 
 ```{r}
 # label = 1
+
 library(readxl)
 advo  <- read_excel("~/DacDinh/K-mean with label, 109 user/Output_1.1 (label).xlsx",
                     sheet = "Advo_label")
@@ -94,16 +95,9 @@ nhom3
 nhom4
 ```
 
-```{r}
-View(nhom1)
-View(nhom2)
-View(nhom3)
-View(nhom4)
-```
 
 
 
-```{r}
-plot(mtcars$mpg)
-```
+
+
 

@@ -72,7 +72,7 @@ sort(table(k$clust))
 ```
 
     ## 
-    ##  2  1  3  4 
+    ##  1  2  3  4 
     ##  3 25 35 46
 
 ``` r
@@ -118,17 +118,6 @@ nhom1
 nhom2
 ```
 
-    ## # A tibble: 3 x 6
-    ##   ID         Passion_Point Content_Creation Amplification Brand_Advo Label
-    ##   <chr>              <dbl>            <dbl>         <dbl>      <dbl> <dbl>
-    ## 1 100000140…         0.515             9.30         1.67        4.86     1
-    ## 2 100000346…         0.687             6.54         0.446       4.50     1
-    ## 3 100001527…         0.742             5.87         1.95        4.59     1
-
-``` r
-nhom3
-```
-
     ## # A tibble: 25 x 6
     ##    ID        Passion_Point Content_Creation Amplification Brand_Advo Label
     ##    <chr>             <dbl>            <dbl>         <dbl>      <dbl> <dbl>
@@ -143,6 +132,17 @@ nhom3
     ##  9 10000120…         0.406             5.72         0           2.32     1
     ## 10 10000015…         0.558             6.62         0           3.69     1
     ## # ... with 15 more rows
+
+``` r
+nhom3
+```
+
+    ## # A tibble: 3 x 6
+    ##   ID         Passion_Point Content_Creation Amplification Brand_Advo Label
+    ##   <chr>              <dbl>            <dbl>         <dbl>      <dbl> <dbl>
+    ## 1 100000140…         0.515             9.30         1.67        4.86     1
+    ## 2 100000346…         0.687             6.54         0.446       4.50     1
+    ## 3 100001527…         0.742             5.87         1.95        4.59     1
 
 ``` r
 nhom4
